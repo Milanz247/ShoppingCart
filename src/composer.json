@@ -35,7 +35,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/milanz247/shopping-cart"
+            "url": "https://github.com/milanz247/ShoppingCart"
         }
     ],
     "prefer-stable": true
