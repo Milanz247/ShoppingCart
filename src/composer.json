@@ -12,7 +12,9 @@
     "require": {
         "php": "^8.0|^8.2",
         "illuminate/support": "^9.0|^10.0|^11.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "milanz247/ShoppingCart": "dev-master"
+
 
     },
  
@@ -32,7 +34,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/milanz247/ShoppingCart"
+            "url": "https://github.com/Milanz247/ShoppingCart"
         }
     ],
     "prefer-stable": true
