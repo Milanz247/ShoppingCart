@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-        "Milanz247\\ShoppingCart\\": "src/"
+            "Milanz247\\ShoppingCart\\": "src/"
         }
     },
     "extra": {
@@ -30,5 +30,13 @@
                 "Milanz247\\ShoppingCart\\ShoppingCartServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/milanz247/shopping-cart"
+        }
+    ],
+    "prefer-stable": true
 }
