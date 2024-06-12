@@ -1,12 +1,11 @@
 {
-    "name": "milanz247/shopping-cart",
+    "name": "milanz247/ShoppingCart",
     "description": "A shopping cart package for Laravel using Livewire",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            
-            "name": "Y",
+            "name": "Your Name",
             "email": "your-email@example.com"
         }
     ],
@@ -22,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-        "Milanz247\\ShoppingCart\\": "src/"
+            "Milanz247\\ShoppingCart\\": "src/"
         }
     },
     "extra": {
@@ -31,5 +30,13 @@
                 "Milanz247\\ShoppingCart\\ShoppingCartServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/milanz247/ShoppingCart"
+        }
+    ],
+    "prefer-stable": true
 }
