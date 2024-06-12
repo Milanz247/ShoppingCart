@@ -12,12 +12,8 @@
     "require": {
         "php": "^8.0|^8.2",
         "illuminate/support": "^9.0|^10.0|^11.0",
-        "ext-json": "*",
-        "milanz247/ShoppingCart": "dev-master"
-
-
+        "ext-json": "*"
     },
- 
     "autoload": {
         "psr-4": {
             "Milanz247\\ShoppingCart\\": "src/"
